@@ -1,1 +1,20 @@
-.idea/*
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+.jbeval/
+
+# Test / tool caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# OS files
+.DS_Store
